@@ -16,8 +16,11 @@ End the program
 ## Program:
 
 import numpy as np
+
 a=np.array([[2,1,1],[1,1,1],[1,-1,2]])
+
 rank=np.linalg.inv(a)
+
 print(rank)
 
 ## Output:
