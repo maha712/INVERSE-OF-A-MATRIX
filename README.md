@@ -17,15 +17,14 @@ End the program
 
 import numpy as np
 
-a=np.array([[2,1,1],[1,1,1],[1,-1,2]])
+a=np.array([[6,2,3],[3,1,1],[10,3,4]])
 
 rank=np.linalg.inv(a)
 
 print(rank)
 
 ## Output:
-
-![Screenshot (12)](https://github.com/maha712/INVERSE-OF-A-MATRIX/assets/121156360/9313ebe1-b9cf-4248-991c-f9131c5796fb)
+![Screenshot (367)](https://github.com/maha712/INVERSE-OF-A-MATRIX/assets/121156360/414ca728-b3f9-472c-8e70-58ba09dbc621)
 
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
